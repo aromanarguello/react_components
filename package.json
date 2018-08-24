@@ -1,0 +1,42 @@
+{
+  "name": "components",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "babel-eslint": "^8.2.6",
+    "css-loader": "^1.0.0",
+    "eslint": "^5.4.0",
+    "eslint-config-react-app": "^2.1.0",
+    "eslint-loader": "^2.1.0",
+    "eslint-plugin-flowtype": "^2.50.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.11.1",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-jss": "^8.6.1",
+    "react-scripts": "1.1.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "lint": "eslint --ext .js --ext .jsx src"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb": "^17.1.0"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "moduleFileExtensions": [
+    "web.js",
+    "js",
+    "json",
+    "web.jsx",
+    "jsx",
+    "node",
+    "mj"
+  ]
+}
